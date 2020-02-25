@@ -1,1 +1,1 @@
-mod views;
+pub mod views;

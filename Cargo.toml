@@ -17,4 +17,4 @@ log = "*"
 [dependencies.cursive]
 version = "0.14"
 default-features = false
-features = ["crossterm-backend"]
+features = ["crossterm-backend", "toml"]
