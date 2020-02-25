@@ -55,7 +55,7 @@ impl Highlighter for DefaultHighlighter {
             "while", "for", "else", "mut", "in", "match", "continue", "break", "fn", "def",
             "lambda", "return", "new", "data", "begin", "end", "then", "is", "enum", "do",
             "var", "static", "public", "private", "where", "include", "define", "pragma",
-            "const"
+            "const", "mod"
         ];
 
         let symbols = [';', ',', ':', '?', '{', '}', '(', ')', '!'];
@@ -804,3 +804,4 @@ where
         Rect::from_size((col, row), (1, 1))
     }
 }
+
